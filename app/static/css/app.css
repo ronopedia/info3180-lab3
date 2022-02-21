@@ -1,3 +1,27 @@
 body {
     padding-top: 5rem;
 }
+form label {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    padding: 5px 0;
+  }
+  
+  form input#name,form input#email,form input#message, form input#subject{
+    width: 400px;
+    background-color: #fffefe;
+    border: 1px solid #b6b5b5;
+    padding: 5px;
+    font-size: 1.1em;
+  }
+  
+  form textarea#message {
+    width: 650px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 1px solid #b6b5b5;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.1em;
+  }
